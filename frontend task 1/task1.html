@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="task1.css" />
+    <title>Frontend Task 1</title>
+  </head>
+  <body>
+    <div class="homepage">
+      <div class="home_1">
+        <div class="div_1_1">
+          <h2>LOGO</h2>
+        </div>
+        <div class="div_1_2">
+          <p><a href="#">BN</a> / <a href="#">EN</a></p>
+        </div>
+      </div>
+      <div class="home_2">
+        <ul>
+          <li><a href="#">HOME</a></li>
+          <li><a href="#">ADVERTISERS</a></li>
+          <li><a href="#">PUBLISHERS</a></li>
+          <li><a href="#">INFLUENCERS</a></li>
+          <li><a href="#">AD FORMATS</a></li>
+          <li><a href="#">BLOG</a></li>
+          <li><a href="#">CONTACT US</a></li>
+        </ul>
+        <div class="login_buttons">
+          <button class="btn-primary">LOGIN</button>
+          <button class="btn-primary">SIGN UP</button>
+        </div>
+      </div>
+      <div class="home_3">
+        <div class="h3b1">
+          <h3>Wonderful Title</h3>
+          <p>Lorem ipsum dolor sit amet.</p>
+        </div>
+        <div class="h3b2">
+          <h4>Some artworks here.</h4>
+        </div>
+      </div>
+
+      <div class="home_4">
+        <h2>AVAILABLE FOR EVERYONE</h2>
+        <p>Here are some texts</p>
+
+        <div class="image_icons">
+          <div>
+            <img src="../frontend task 1/volume.png" alt="" />
+            <h4>Sound</h4>
+            <button>Hello 1</button>
+          </div>
+
+          <div>
+            <img src="../frontend task 1/paper-plane.png" alt="" />
+            <h4>Message</h4>
+            <button>Hello 1</button>
+          </div>
+
+          <div>
+            <img src="../frontend task 1/user.png" alt="img1" />
+            <h4>Hear</h4>
+            <button>Hello 1</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="home_5">
+        <h2>VERSATILE AD FORMATS</h2>
+        <div class="ad_buttons">
+          <button class="img_btn" onclick="document.getElementById('img').src='../frontend task 1/ad-1.png'">POP-UNDER</button>
+          <button class="img_btn" onclick="document.getElementById('img').src='../frontend task 1/images2.jpg'">BANNER-AD</button>
+          <button class="img_btn" onclick="document.getElementById('img').src='../frontend task 1/images3.jpg'">NATIVE</button>
+          <button class="img_btn" onclick="document.getElementById('img').src='../frontend task 1/images4.jpg'">SKIM</button>
+        </div>
+        <div class="ads">
+          <img id="img" src="../frontend task 1/images2.jpg" alt="" />
+          <div class="writings">
+            <h4>NATIVE</h4>
+            <p class="desc">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae
+              laudantium cumque ducimus iusto laboriosam error eligendi, eaque
+              aliquid sapiente provident!
+              <br>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas, quasi.
+            </p><br><br><br><br><br><br><br><br><br><br><br><br><br>
+            <p class="learn_more"><a href="">Learn more <img src="../frontend task 1/info.png" alt="" /></a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--<script>
+      var image = document.getElementById("img");
+      var image_btn = document.querySelector(".img_btn");
+
+      function changeImage(){
+          if(image_btn.value == "POP-UNDER")
+            image.src = "../frontend task 1/ad-1.png";
+          else if(image_btn.value == "BANNER-AD")
+            image.src = "../frontend task 1/images2.jpg";
+          else if(image_btn.value == "NATIVE")
+            image.src = "../frontend task 1/images3.jpg";
+          else if(image_btn.value == "SKIM")
+            image.src = "../frontend task 1/images4.jpg";
+      }
+    </script>-->
+  </body>
+</html>

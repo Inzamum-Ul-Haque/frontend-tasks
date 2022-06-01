@@ -1,0 +1,287 @@
+@import url('http://fonts.cdnfonts.com/css/prototype');
+@import url('http://fonts.cdnfonts.com/css/pt-sans-pro');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:wght@700&family=Poppins:wght@300;400;500;600&display=swap');
+
+:root {
+    --orange: #FF6f00;
+    --violet: #644F9C;
+    --white: #F2F2F2;
+    --black: #404040;
+    --transition: all 0.4s ease 0s;
+}
+
+*{
+    margin: 10px 10px 0 10px;
+    text-decoration: none;
+    list-style: none;
+    background: var(--white);
+}
+
+.homepage{
+    display: block;
+    width: 100%;
+}
+
+.home_1{
+    height: max-content;
+    padding: 0.5rem;
+    margin-bottom: 4.5rem;
+    text-align: center;
+}
+
+.home_1 .div_1_1{
+    float: left;
+    padding: 20px;
+    margin: 0;
+    width: max-content;
+}
+
+.home_1 .div_1_1 h2{
+    font-family: 'Poppins', sans-serif;
+    font-size: 2.2rem;
+    font-weight: 900;
+}
+
+.home_1 .div_1_2 p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 0.8rem;
+    color: var(--black);
+}
+
+.home_1 .div_1_2 p a{
+    color: var(--black);
+}
+
+.home_1 .div_1_2 p a:hover{
+    color: green;
+}
+
+.home_1 .div_1_2 {
+    float: right;
+    padding: 20px;
+    margin: 0;
+    width: max-content;
+}
+
+.home_2{
+    height: max-content;
+    padding: 1.5rem;
+    margin-bottom: 4.5rem;
+    text-align: center;
+}
+
+.home_2 ul{
+    float: left;
+    margin: 0 10px 0 0;
+    width: max-content;
+}
+
+.home_2 ul li{
+    display: inline-block;
+    margin-right: 5px;
+}
+
+.home_2 ul li a{
+    font-family: 'PT Sans pro', sans-serif;
+    color: var(--violet);
+    transition: var(--transition);
+}
+
+.home_2 ul li a:hover{
+    color: var(--orange);
+}
+
+.home_2 .login_buttons {
+    border-radius: 30px;
+    float: right;
+    padding: 5px 10px 5px 10px;
+    box-shadow: 0 0 10px 0 #cccccc;
+    margin: 0;
+    width: max-content;
+}
+
+.home_2 .login_buttons button{
+    border: none;
+    font-size: 1rem;
+    font-family: 'Poppins', sans-serif;
+    border-radius: 30px;
+    transition: var(--transition);
+}
+
+.home_2 .login_buttons button:hover{
+    background: var(--orange);
+    color: var(--white);
+    cursor: pointer;
+}
+
+.home_3{
+    display: grid;
+    grid-template-columns: 60% 40%;
+    height: max-content;
+    padding: 0.5rem;
+    margin-bottom: 4.5rem;
+    text-align: center;
+}
+
+.home_3 .h3b1{
+    padding: 50px;
+    text-align: left;
+    margin: 0 10px 0 0;
+}
+
+.home_3 .h3b1 h3{
+    font-family: 'PT Sans pro', sans-serif;
+    font-size: 2.5rem;
+    color: var(--violet);
+}
+
+.home_3 .h3b1 p{
+    font-family: 'PT Sans', sans-serif;
+    font-size: 1.2rem;
+    font-weight: 300;
+}
+
+.home_3 .h3b2 {
+    padding: 90px;
+    background: #ffffff;
+    text-align: center;
+    align-items: center;
+    margin: 0 0 0 0;
+    height: 150px;
+}
+
+.home_3 .h3b2 h4{
+    background: #ffffff;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 1.2rem;
+}
+
+.home_4{
+    display: block;
+    text-align: center;
+    margin-bottom: 4.5rem;
+}
+
+.home_4 .image_icons{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 5px;
+}
+
+.home_4 .image_icons > div{
+    padding: 10px;
+}
+
+.home_4 h2{
+    font-family: 'PT Sans pro', sans-serif;
+    font-size: 1.5rem;
+    color: var(--violet);
+}
+
+.home_4 p{
+    font-size: 1.5rem;
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 100;
+}
+
+.home_4 .image_icons img{
+    width: 10rem;
+    padding: 1.5rem;
+    border-radius: 50%;
+    background: #ffffff;
+}
+
+.home_4 .image_icons h4{
+    color: var(--black);
+    font-family: 'PT Sans', sans-serif;
+    font-size: 1.5rem;
+}
+
+.home_4 .image_icons button{
+    width: 12rem;
+    padding: 0.5rem 2rem 0.5rem 2rem;
+    background: var(--violet);
+    color: var(--white);
+    font-family: 'PT Sans', sans-serif;
+    border-radius: 35px;
+}
+
+.home_5{
+    text-align: center;
+    margin-bottom: 4.5rem;
+}
+
+.home_5 .ads{
+    display: grid;
+    grid-template-columns: 45% 55%;
+    column-gap: 5px;
+}
+
+.home_5 h2{
+    font-family: 'PT Sans pro', sans-serif;
+    font-size: 1.5rem;
+    color: var(--violet);
+    margin-bottom: 2rem;
+}
+
+.home_5 .ad_buttons{
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 10px;
+}
+
+.home_5 .ad_buttons button{
+    width: 12rem;
+    padding: 5px 30px 5px 30px;
+    font-size: 1.2rem;
+    background: var(--white);
+    transition: var(--transition);
+    box-shadow: 0 0 10px 0 #cccccc;
+    border-radius: 35px;
+    border: none;
+}
+
+.home_5 .ad_buttons button:hover{
+    background: var(--orange);
+    color: var(--white);
+    cursor: pointer;
+}
+
+.home_5 .ads #img{
+    width: 100%;
+    height: 400px;
+}
+
+.home_5 .ads .writings h4{
+    font-size: 1.3rem;
+    font-family: 'PT Sans', sans-serif;
+    text-align: left;
+    padding: 0 0 0 15px;
+    color: var(--orange);
+}
+
+.home_5 .ads .writings .desc{
+    padding: 10px 0 0 15px;
+    text-align: left;
+    font-size: 1rem;
+    color: var(--black);
+    font-family: 'PT Sans pro', sans-serif;
+}
+
+.home_5 .ads .writings .learn_more{
+    text-align: left;
+    padding: 0 0 0 10px;
+}
+
+.home_5 .ads .writings .learn_more a{
+    font-family: 'PT Sans', sans-serif;
+    font-size: 1rem;
+}
+
+.home_5 .ads .writings .learn_more img{
+    padding: 0;
+    margin: 0;
+    width: 15px;
+    font-size: 1rem;
+}
